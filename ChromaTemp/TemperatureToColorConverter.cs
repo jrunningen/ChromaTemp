@@ -1,16 +1,11 @@
 ﻿using Corale.Colore.Core;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace RazerTempREST.App
+namespace ChromaTemp
 {
     class TemperatureToColorConverter
     {
-        private static readonly Color RED = new Color(255, 0, 0);
-        private static readonly Color CYAN = new Color(00, 255, 255);
+        private static readonly Color Red = new Color(255, 0, 0);
+        private static readonly Color Cyan = new Color(00, 255, 255);
 
         public static Color ConvertTemperature(int temp)
         {
@@ -24,7 +19,7 @@ namespace RazerTempREST.App
 
             if (temp < 30)
             {
-                return CYAN;
+                return Cyan;
             }
             if (temp < 50)
             {
@@ -51,7 +46,7 @@ namespace RazerTempREST.App
                 return new Color(255, ScaleDown(scale), 0);
             }
 
-            return RED;
+            return Red;
         }
 
         private static int ScaleUp(int factor)

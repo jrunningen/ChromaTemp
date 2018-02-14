@@ -2,7 +2,7 @@
 using System;
 using System.Threading;
 
-namespace RazerTempREST.App
+namespace ChromaTemp
 {
     class Program
     {
@@ -10,7 +10,7 @@ namespace RazerTempREST.App
         {
             while (true)
             {
-                if (TemperatureRetriever.TryGetCPUTemperature(out int temp))
+                if (TemperatureRetriever.TryGetCpuTemperature(out int temp))
                 {
                     var color = TemperatureToColorConverter.ConvertTemperature(temp);
                     Chroma.Instance.Keyboard.SetAll(color);
