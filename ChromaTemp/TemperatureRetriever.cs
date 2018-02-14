@@ -1,18 +1,14 @@
 ﻿using OpenHardwareMonitor.Hardware;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace RazerTempREST.App
+namespace ChromaTemp
 {
     class TemperatureRetriever
     {
-        public static bool TryGetCPUTemperature(out int temp)
+        public static bool TryGetCpuTemperature(out int temp)
         {
-            Computer computer = new Computer();
-            computer.CPUEnabled = true;
+            Computer computer = new Computer {CPUEnabled = true};
             computer.Open();
 
             var tempSensor = computer.Hardware
