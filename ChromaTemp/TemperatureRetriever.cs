@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace ChromaTemp
 {
-    class TemperatureRetriever
+    public class TemperatureRetriever
     {
         public static bool TryGetCpuTemperature(out int temp)
         {

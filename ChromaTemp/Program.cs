@@ -13,7 +13,7 @@ namespace ChromaTemp
                 if (TemperatureRetriever.TryGetCpuTemperature(out int temp))
                 {
                     var color = TemperatureToColorConverter.ConvertTemperature(temp);
-                    Chroma.Instance.Keyboard.SetAll(color);
+                    //Chroma.Instance.Keyboard.SetAll(color);
                     Console.WriteLine($"Temp: {temp} | Color: {color.R}|{color.G}|{color.B}");
                 }
                 Thread.Sleep(3000);

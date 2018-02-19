@@ -21,6 +21,18 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_44C8E24420CC4FCC9435E96A6E44E6F4"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_6A8B9149FFF2F19010AA4476C46F683C"
+        "OwnerKey" = "8:_44C8E24420CC4FCC9435E96A6E44E6F4"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_8662EED07B0BAAF40740F6CF4586CD5E"
         "OwnerKey" = "8:_054AD077B83F4A65B0DB1ABFDB325E44"
         "MsmSig" = "8:_UNDEFINED"
@@ -35,6 +47,18 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_054AD077B83F4A65B0DB1ABFDB325E44"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_44C8E24420CC4FCC9435E96A6E44E6F4"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_6A8B9149FFF2F19010AA4476C46F683C"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -113,6 +137,62 @@
     {
         "CustomAction"
         {
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_88C05A80A5DC4E4CB00D459441B0D3F1"
+            {
+            "Name" = "8:Primary output from ChromaTempService (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_44C8E24420CC4FCC9435E96A6E44E6F4"
+            "FileType" = "3:2"
+            "InstallAction" = "3:2"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_CBDFA405_8E73_456F_B112_A9D65400110E"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:"
+            }
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_8C61AF0ED3DB4037AB0A8A0DA58737EF"
+            {
+            "Name" = "8:Primary output from ChromaTempService (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_44C8E24420CC4FCC9435E96A6E44E6F4"
+            "FileType" = "3:2"
+            "InstallAction" = "3:4"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_55C95CCB_C309_4276_B435_3C73CC72AEA6"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:"
+            }
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_D0900FFBD585422488B95D012C64C695"
+            {
+            "Name" = "8:Primary output from ChromaTempService (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_44C8E24420CC4FCC9435E96A6E44E6F4"
+            "FileType" = "3:2"
+            "InstallAction" = "3:1"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_DAC3797B_E05F_4B29_A6C8_F569E0BE72E1"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:"
+            }
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_D7A7F5FA0CFD4F43AD345B9D5A739E9F"
+            {
+            "Name" = "8:Primary output from ChromaTempService (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_44C8E24420CC4FCC9435E96A6E44E6F4"
+            "FileType" = "3:2"
+            "InstallAction" = "3:3"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_3A13B9E1_9646_496E_A0EC_B2ADAE16AC4E"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:"
+            }
         }
         "DefaultFeature"
         {
@@ -136,6 +216,37 @@
         }
         "File"
         {
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_6A8B9149FFF2F19010AA4476C46F683C"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+                "ScatterAssemblies"
+                {
+                    "_6A8B9149FFF2F19010AA4476C46F683C"
+                    {
+                    "Name" = "8:System.Net.Http.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:System.Net.Http.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_536CDFB664394A4C9813641ED19E8B95"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_8662EED07B0BAAF40740F6CF4586CD5E"
             {
             "AssemblyRegister" = "3:1"
@@ -238,6 +349,17 @@
                 {
                 }
             }
+            "{1525181F-901A-416C-8A58-119130FE478E}:_AD3D826BC7E045DBB619B64B87170701"
+            {
+            "Name" = "8:#1914"
+            "AlwaysCreate" = "11:FALSE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Property" = "8:SystemFolder"
+                "Folders"
+                {
+                }
+            }
         }
         "LaunchCondition"
         {
@@ -261,7 +383,7 @@
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
-        "InstallAllUsers" = "11:FALSE"
+        "InstallAllUsers" = "11:TRUE"
         "ProductVersion" = "8:1.0.0"
         "Manufacturer" = "8:Jeff Runningen"
         "ARPHELPTELEPHONE" = "8:"
@@ -797,6 +919,34 @@
             "OutputConfiguration" = "8:"
             "OutputGroupCanonicalName" = "8:Built"
             "OutputProjectGuid" = "8:{ED94A3EF-4D53-4E75-8A7D-EC4BE4C11876}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                }
+            }
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_44C8E24420CC4FCC9435E96A6E44E6F4"
+            {
+            "SourcePath" = "8:..\\ChromaTempService\\obj\\Debug\\ChromaTempService.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_536CDFB664394A4C9813641ED19E8B95"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:1"
+            "OutputConfiguration" = "8:"
+            "OutputGroupCanonicalName" = "8:Built"
+            "OutputProjectGuid" = "8:{6A0AB47C-E82C-464C-AEB9-44D7C1E5B2AE}"
             "ShowKeyOutput" = "11:TRUE"
                 "ExcludeFilters"
                 {

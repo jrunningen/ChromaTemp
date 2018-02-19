@@ -2,7 +2,7 @@
 
 namespace ChromaTemp
 {
-    class TemperatureToColorConverter
+    public class TemperatureToColorConverter
     {
         private static readonly Color Red = new Color(255, 0, 0);
         private static readonly Color Cyan = new Color(00, 255, 255);
